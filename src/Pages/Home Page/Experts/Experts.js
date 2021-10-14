@@ -1,8 +1,8 @@
 import React from 'react';
-import mechanic1 from '../../images/mechanic/mechanic-1.jpg';
-import mechanic2 from '../../images/mechanic/mechanic-2.jpg'
-import mechanic3 from '../../images/mechanic/mechanic-3.jpg'
-import mechanic4 from '../../images/mechanic/mechanic-4.jpg'
+import mechanic1 from '../../../images/mechanic/mechanic-1.jpg';
+import mechanic2 from '../../../images/mechanic/mechanic-2.jpg'
+import mechanic3 from '../../../images/mechanic/mechanic-3.jpg'
+import mechanic4 from '../../../images/mechanic/mechanic-4.jpg'
 import Expert from '../Expert/Expert';
 
 const experts = [
@@ -30,7 +30,7 @@ const experts = [
 
 const Experts = () => {
     return (
-        <div className="container">
+        <div id="experts" className="container">
             <h2 className="text-primary">Our Experts</h2>
             <div className="row justify-content-center">
                 {
